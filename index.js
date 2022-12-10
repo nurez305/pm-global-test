@@ -4,7 +4,7 @@ const Joi = require('joi');
 const users = require('./routes/user');
 
 
-const db = mongoose.connect('mongodb://localhost/userdata',{
+const db = mongoose.connect('mongodb+srv://nurez154:Asunlope@nurez-cluster.rsxzihk.mongodb.net/userdatadb?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
